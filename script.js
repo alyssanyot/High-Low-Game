@@ -1,11 +1,11 @@
-var targetNum;
+let targetNum;
 
 targetNum = Math.floor((Math.random() * 100) + 1);
 console.log(targetNum);
-var resultDisplay = document.getElementById('result')
+let resultDisplay = document.getElementById('result')
 
 function checkResult(){
-	var guess = parseInt(document.getElementById('number').value);	
+	let guess = parseInt(document.getElementById('number').value);	
 	console.log(guess,targetNum);
 	if(guess == null){
 		return;
