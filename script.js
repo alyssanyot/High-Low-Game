@@ -1,7 +1,7 @@
 let targetNum;
 
 targetNum = Math.floor((Math.random() * 100) + 1);
-console.log(targetNum);
+
 let resultDisplay = document.getElementById('result')
 
 function checkResult(){
@@ -23,3 +23,4 @@ function checkResult(){
 		resultDisplay.innerHTML = "Too Low";
 	}
 }
+
