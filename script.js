@@ -2,7 +2,7 @@ let targetNum;
 
 targetNum = Math.floor((Math.random() * 100) + 1);
 
-let resultDisplay = document.getElementById('result')
+let resultDisplay = document.getElementById('result');
 
 function checkResult(){
 	let guess = parseInt(document.getElementById('number').value);	
